@@ -1,8 +1,13 @@
 
 li {
     margin: 20px;
+    padding: 10px;
 }
 
+
+h1 {
+  text-align: center;
+}
 
 /* Class Selectors */
 .button {
@@ -29,12 +34,29 @@ li {
   transform: scale(1.05) rotate(-1deg);
 }
 
+.center {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+
+.question {
+  font-size: 200%;
+}
 
 /* ID Selectors */
 #sectionbox {
     display: none;
+    margin: auto;
+    width: 30%;
+    padding: 10px;
+    border: 2px solid blue;
 }
 
 #start-button {
     display:block;
+}
+
+#highscore {
+  display: none;
 }

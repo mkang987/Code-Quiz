@@ -8,6 +8,7 @@ var questionDisplay = document.querySelector(".question");
 var questionBox = document.querySelector("#sectionbox");
 var scoreCount = document.querySelector("#currentScore");
 var totalScore = document.querySelector("#totalScore");
+var endScore = document.querySelector("#highscore");
 
 
 var timer = 60;
@@ -37,7 +38,7 @@ var questions = [
     },
 
     {
-        question: "Question 3 answer 2",
+        question: "super long text that in the end its going to tell me that the answer is choice number 2. hopefully this will fit in the box or something",
         choice1: "1",
         choice2: "2",
         choice3: "3",
@@ -107,6 +108,10 @@ var questions = [
         choice4: "4",
         correctAnswer: "2"
     },
+
+    {
+        question: "Complete",
+    }
 ]
 
 //Timer function
@@ -122,7 +127,7 @@ function timeLeft() {
             questionBox.style.display = "none";
             endScreen();
 
-        } else if(timerCount > 0 && questionNumber > 10) {
+        } else if(timerCount > 0 && questionNumber == 11) {
             clearInterval(timer);
             questionBox.style.display = "none";
             endScreen();
@@ -140,7 +145,7 @@ function startgame() {
     questionNumber = 0;
     timeLeft();
     questionBox.style.display = "block";
-    startbutton.style.display = "none";
+    startbutton.style.visibility = "hidden";
     nextQuestion();
 }
 
@@ -182,6 +187,7 @@ function checkAnswer() {
 function endScreen() {
     SCORE = SCORE + timerCount;
     totalScore.textContent = SCORE;
+    endScore.style.display = "block";
 }
 
 //Refresh Score screen
