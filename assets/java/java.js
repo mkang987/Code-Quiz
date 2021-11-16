@@ -122,7 +122,7 @@ function timeLeft() {
             questionBox.style.display = "none";
             endScreen();
 
-        } else if(timerCount > 0 && questionNumber > 9) {
+        } else if(timerCount > 0 && questionNumber > 10) {
             clearInterval(timer);
             questionBox.style.display = "none";
             endScreen();
