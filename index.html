@@ -8,21 +8,31 @@
   </head>
   <body>
     <header>
-      <div>Coding quiz</div>
-      <button class="start-button">Start</button>
+      <h1>Coding quiz</h1>
+      <button id="start-button">Start</button>
       <div class = "timercount">60</div>
-      <h1> Second(s) left.</h1>
+      <div> Second(s) left.</div>
     </header>
 
     <main>
 
-        <div class = "question">Question Placeholder</div>
-        <ol>
-            <li><button class = "answer1">Answer1</button></li>
-            <li><button class = "answer2">Answer2</button></li>
-            <li><button class = "answer3">Answer3</button></li>
-            <li><button class = "answer4">Answer4</button></li>
-        </ol>
+        <section id = "sectionbox">
+          <div class = "question">Question Placeholder</div>
+            <ol>
+              <li><button class = "answer1" >Answer1</button></li>
+              <li><button class = "answer2" >Answer2</button></li>
+              <li><button class = "answer3" >Answer3</button></li>
+              <li><button class = "answer4" >Answer4</button></li>
+            </ol>
+
+            <div class = "score"><span id = "currentScore">0</span> Points</div>
+        </section>
+
+        <section id = "highscore">
+          <div>Your total score was <span id = "totalScore" >0</span> Points</div>
+
+        </section>
+
     </main>
 
 
