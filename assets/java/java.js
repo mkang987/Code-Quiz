@@ -98,21 +98,21 @@ var questions = [
     },
 
     {
-        question: "Question 9 answer 2",
-        choice1: "1",
-        choice2: "2",
-        choice3: "3",
+        question: "How would you change the color of text?",
+        choice1: "color: red;",
+        choice2: "font: red;",
+        choice3: "font-color: red;",
         choice4: "4",
         correctAnswer: "2"
     },
 
     {
-        question: "Question 10 answer 2",
-        choice1: "1",
-        choice2: "2",
-        choice3: "3",
-        choice4: "4",
-        correctAnswer: "2"
+        question: "Which one of the following is true?",
+        choice1: "Java and Javascript are the same.",
+        choice2: "!true",
+        choice3: "CSS is short for Cascading Style Sheet.",
+        choice4: "Different browsers share the same storage.",
+        correctAnswer: "3"
     },
 
     {

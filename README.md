@@ -16,3 +16,11 @@ At the end of the screen user will get asked for their name to show on the highs
 ![Picture of high score screen](./assets/img/img1.png)
 
 https://mkang987.github.io/Code-Quiz/
+
+## Credits
+
+Button Layout Sample from:
+https://getcssscan.com/css-buttons-examples
+
+Highscore tutorial
+https://michael-karen.medium.com/how-to-save-high-scores-in-local-storage-7860baca9d68
